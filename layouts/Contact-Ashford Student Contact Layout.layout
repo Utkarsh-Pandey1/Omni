@@ -51,42 +51,6 @@
                 <behavior>Edit</behavior>
                 <field>Email</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Line_of_Business__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Alumni__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Re_Apply__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Re_Entry__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Eligible_for_Re_Entry__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Pending_Alumni__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>LDA_Duration__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>School_Status_Category__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>First_AppIn_Date__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -113,18 +77,7 @@
                 <behavior>Edit</behavior>
                 <field>Student_On_Hold__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Outstanding_AR_Balance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Payment_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Max_LDA_Program_Enrollment__c</field>
-            </layoutItems>
+
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Org_Code__c</field>
@@ -138,10 +91,6 @@
         <editHeading>true</editHeading>
         <label>Global Contact Preferences</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Global_Do_Not_Call__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>hed__Do_Not_Contact__c</field>
@@ -172,10 +121,7 @@
                 <behavior>Edit</behavior>
                 <field>Student_Time_Zone__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Preferred_Email__c</field>
-            </layoutItems>
+          
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Unavailable_End_date__c</field>
@@ -322,27 +268,17 @@
         <editHeading>true</editHeading>
         <label>Advisors</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Re_Entry_Advisor__c</field>
-            </layoutItems>
+           
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Enrollment_Services_Advisor__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Matriculation_Coordinator__c</field>
-            </layoutItems>
+           
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Financial_Services_Advisor__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Enrollment_Coach__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -590,20 +526,7 @@
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Interaction__c.Student_Id__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Student_Group__c.Student__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>Opportunity.Contact_Name__c</relatedList>
-    </relatedLists>
+    
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
